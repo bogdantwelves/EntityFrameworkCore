@@ -1,7 +1,7 @@
 namespace EntityFramework.Domain;
 
-public class Team
+public class Team: BaseDomainModel
 {
     public int TeamId { get; set; }
-    public string Name { get; set; }
+    public string? Name { get; set; }
 }

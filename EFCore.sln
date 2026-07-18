@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Data", "Ent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Domain", "EntityFramework.Domain\EntityFramework.Domain.csproj", "{C248EAD2-530C-4DE1-9943-9A806C22F55C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore.Console", "EntityFrameworkCore.Console\EntityFrameworkCore.Console.csproj", "{1FD8C7C1-B69A-4369-BADA-D7A4ED70F91C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{C248EAD2-530C-4DE1-9943-9A806C22F55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C248EAD2-530C-4DE1-9943-9A806C22F55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C248EAD2-530C-4DE1-9943-9A806C22F55C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FD8C7C1-B69A-4369-BADA-D7A4ED70F91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD8C7C1-B69A-4369-BADA-D7A4ED70F91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD8C7C1-B69A-4369-BADA-D7A4ED70F91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD8C7C1-B69A-4369-BADA-D7A4ED70F91C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

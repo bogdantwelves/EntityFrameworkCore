@@ -1,0 +1,13 @@
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Domain/bin/Debug/net10.0/EntityFramework.Domain.deps.json
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Domain/bin/Debug/net10.0/EntityFramework.Domain.dll
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Domain/bin/Debug/net10.0/EntityFramework.Domain.pdb
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Domain/obj/Debug/net10.0/EntityFramework.Domain.csproj.AssemblyReference.cache
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Domain/obj/Debug/net10.0/EntityFramework.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Domain/obj/Debug/net10.0/EntityFramework.Domain.AssemblyInfoInputs.cache
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Domain/obj/Debug/net10.0/EntityFramework.Domain.AssemblyInfo.cs
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Domain/obj/Debug/net10.0/EntityFramework.Domain.csproj.CoreCompileInputs.cache
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Domain/obj/Debug/net10.0/EntityFramework.Domain.sourcelink.json
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Domain/obj/Debug/net10.0/EntityFramework.Domain.dll
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Domain/obj/Debug/net10.0/refint/EntityFramework.Domain.dll
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Domain/obj/Debug/net10.0/EntityFramework.Domain.pdb
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Domain/obj/Debug/net10.0/ref/EntityFramework.Domain.dll

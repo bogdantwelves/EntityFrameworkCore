@@ -1448,23 +1448,23 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "EntityFramework.Data/1.0.0": {
+      "EntityFrameworkCore.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "EntityFramework.Domain": "1.0.0",
+          "EntityFrameworkCore.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.10",
           "Microsoft.EntityFrameworkCore.Sqlite": "10.0.10"
         },
         "compile": {
-          "bin/placeholder/EntityFramework.Data.dll": {}
+          "bin/placeholder/EntityFrameworkCore.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EntityFramework.Data.dll": {}
+          "bin/placeholder/EntityFrameworkCore.Data.dll": {}
         }
       },
-      "EntityFramework.Domain/1.0.0": {
+      "EntityFrameworkCore.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -1473,10 +1473,10 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "10.0.10"
         },
         "compile": {
-          "bin/placeholder/EntityFramework.Domain.dll": {}
+          "bin/placeholder/EntityFrameworkCore.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EntityFramework.Domain.dll": {}
+          "bin/placeholder/EntityFrameworkCore.Domain.dll": {}
         }
       }
     }
@@ -4026,20 +4026,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "EntityFramework.Data/1.0.0": {
+    "EntityFrameworkCore.Data/1.0.0": {
       "type": "project",
-      "path": "../EntityFramework.Data/EntityFramework.Data.csproj",
-      "msbuildProject": "../EntityFramework.Data/EntityFramework.Data.csproj"
+      "path": "../EntityFrameworkCore.Data/EntityFrameworkCore.Data.csproj",
+      "msbuildProject": "../EntityFrameworkCore.Data/EntityFrameworkCore.Data.csproj"
     },
-    "EntityFramework.Domain/1.0.0": {
+    "EntityFrameworkCore.Domain/1.0.0": {
       "type": "project",
-      "path": "../EntityFramework.Domain/EntityFramework.Domain.csproj",
-      "msbuildProject": "../EntityFramework.Domain/EntityFramework.Domain.csproj"
+      "path": "../EntityFrameworkCore.Domain/EntityFrameworkCore.Domain.csproj",
+      "msbuildProject": "../EntityFrameworkCore.Domain/EntityFrameworkCore.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "EntityFramework.Data >= 1.0.0",
+      "EntityFrameworkCore.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.10"
     ]
@@ -4070,8 +4070,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Data/EntityFramework.Data.csproj": {
-              "projectPath": "/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Data/EntityFramework.Data.csproj"
+            "/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Data/EntityFrameworkCore.Data.csproj": {
+              "projectPath": "/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Data/EntityFrameworkCore.Data.csproj"
             }
           }
         }

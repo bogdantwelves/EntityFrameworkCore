@@ -19,7 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\EntityFramework.Data\EntityFramework.Data.csproj" />
+      <ProjectReference Include="..\EntityFrameworkCore.Data\EntityFrameworkCore.Data.csproj" />
     </ItemGroup>
 
 </Project>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EntityFramework.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bba6d65dc842cffd96732ee71383deb1049a807b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99adf7868390ab1dd942c35d8c524d510c9af680")]
 [assembly: System.Reflection.AssemblyProductAttribute("EntityFramework.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EntityFramework.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

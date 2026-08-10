@@ -1,3 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using EntityFramework.Data;
 
-Console.WriteLine("Hello, World!");
+var context = new FootballLeagueDbContext();
+var teams = context.Teams.ToList();
+
+foreach (var team in teams)
+{
+    Console.WriteLine(team.Name);
+}

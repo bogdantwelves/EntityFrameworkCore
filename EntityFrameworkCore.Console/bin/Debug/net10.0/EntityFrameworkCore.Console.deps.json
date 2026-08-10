@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "EntityFrameworkCore.Console/1.0.0": {
         "dependencies": {
-          "EntityFramework.Data": "1.0.0",
+          "EntityFrameworkCore.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "10.0.10"
         },
         "runtime": {
@@ -1093,28 +1093,28 @@
           }
         }
       },
-      "EntityFramework.Data/1.0.0": {
+      "EntityFrameworkCore.Data/1.0.0": {
         "dependencies": {
-          "EntityFramework.Domain": "1.0.0",
+          "EntityFrameworkCore.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.10",
           "Microsoft.EntityFrameworkCore.Sqlite": "10.0.10"
         },
         "runtime": {
-          "EntityFramework.Data.dll": {
+          "EntityFrameworkCore.Data.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "EntityFramework.Domain/1.0.0": {
+      "EntityFrameworkCore.Domain/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "10.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.10",
           "Microsoft.EntityFrameworkCore.Sqlite": "10.0.10"
         },
         "runtime": {
-          "EntityFramework.Domain.dll": {
+          "EntityFrameworkCore.Domain.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1555,12 +1555,12 @@
       "path": "system.security.cryptography.protecteddata/9.0.4",
       "hashPath": "system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
     },
-    "EntityFramework.Data/1.0.0": {
+    "EntityFrameworkCore.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "EntityFramework.Domain/1.0.0": {
+    "EntityFrameworkCore.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

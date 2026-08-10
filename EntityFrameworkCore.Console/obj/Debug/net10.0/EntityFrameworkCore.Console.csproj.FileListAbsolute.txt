@@ -170,10 +170,6 @@
 /Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/bin/Debug/net10.0/runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll
 /Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/bin/Debug/net10.0/runtimes/win/lib/net9.0/System.Diagnostics.EventLog.dll
 /Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/bin/Debug/net10.0/runtimes/win/lib/net9.0/System.Security.Cryptography.Pkcs.dll
-/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/bin/Debug/net10.0/EntityFramework.Data.dll
-/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/bin/Debug/net10.0/EntityFramework.Domain.dll
-/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/bin/Debug/net10.0/EntityFramework.Data.pdb
-/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/bin/Debug/net10.0/EntityFramework.Domain.pdb
 /Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/obj/Debug/net10.0/EntityFrameworkCore.Console.csproj.AssemblyReference.cache
 /Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/obj/Debug/net10.0/EntityFrameworkCore.Console.GeneratedMSBuildEditorConfig.editorconfig
 /Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/obj/Debug/net10.0/EntityFrameworkCore.Console.AssemblyInfoInputs.cache
@@ -186,3 +182,7 @@
 /Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/obj/Debug/net10.0/EntityFrameworkCore.Console.pdb
 /Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/obj/Debug/net10.0/EntityFrameworkCore.Console.genruntimeconfig.cache
 /Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/obj/Debug/net10.0/ref/EntityFrameworkCore.Console.dll
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/bin/Debug/net10.0/EntityFrameworkCore.Data.dll
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/bin/Debug/net10.0/EntityFrameworkCore.Domain.dll
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/bin/Debug/net10.0/EntityFrameworkCore.Data.pdb
+/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Console/bin/Debug/net10.0/EntityFrameworkCore.Domain.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hditAPx0r9Q=",
+  "dgSpecHash": "rbl8qDybQ8w=",
   "success": true,
-  "projectFilePath": "/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Data/EntityFramework.Data.csproj",
+  "projectFilePath": "/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Data/EntityFrameworkCore.Data.csproj",
   "expectedPackageFiles": [
     "/Users/bogdantwelve/.nuget/packages/azure.core/1.47.1/azure.core.1.47.1.nupkg.sha512",
     "/Users/bogdantwelve/.nuget/packages/azure.identity/1.14.2/azure.identity.1.14.2.nupkg.sha512",
@@ -73,9 +73,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'SQLitePCLRaw.lib.e_sqlite3' 2.1.11 has a known high severity vulnerability, https://github.com/advisories/GHSA-2m69-gcr7-jv3q",
-      "projectPath": "/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Data/EntityFramework.Data.csproj",
+      "projectPath": "/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Data/EntityFrameworkCore.Data.csproj",
       "warningLevel": 1,
-      "filePath": "/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFramework.Data/EntityFramework.Data.csproj",
+      "filePath": "/Users/bogdantwelve/isa2projects/isa2/EFCore/EntityFrameworkCore.Data/EntityFrameworkCore.Data.csproj",
       "libraryId": "SQLitePCLRaw.lib.e_sqlite3",
       "targetGraphs": [
         "net10.0"

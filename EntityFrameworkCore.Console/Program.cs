@@ -9,8 +9,46 @@ var context = new FootballLeagueDbContext();
 //Select all methods that meat a condition
 //GetFiltredTeams();
 //AggregateMethods();
+//GroupByMethod();
+//OrderByMethod();
 
+async Task OrderByMethod()
+{
+    var orderedTeams = await context.Teams
+        .OrderBy(team => team.Name)
+        .ToListAsync();
+    foreach (var team in orderedTeams)
+    {
+        Console.WriteLine(team.Name);
+    }
 
+    var orderedTeamsDescending = await context.Teams
+        .OrderByDescending(team => team.Name)
+        .ToListAsync();
+    foreach (var team in orderedTeamsDescending)
+    {
+        Console.WriteLine(team.Name);
+    }
+
+    var maxBy = context.Teams.MaxBy(team => team.TeamId);
+    var minBy = context.Teams.MinBy(team => team.TeamId);
+}
+void GroupByMethod()
+{
+    var groupedTeams = context.Teams
+        .GroupBy(q => q.CreatedAt.Date);
+
+    foreach (var group in groupedTeams)
+    {
+        Console.WriteLine(group.Key);
+        Console.WriteLine(group.Sum(q => q.TeamId));
+
+        foreach (var team in group)
+        {
+            Console.WriteLine(team.Name);
+        }
+    }
+}
 async Task AggregateMethods()
 {
     var numberOfTeams = context.Teams.CountAsync();

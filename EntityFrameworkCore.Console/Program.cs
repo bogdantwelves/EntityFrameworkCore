@@ -4,9 +4,43 @@ using Microsoft.EntityFrameworkCore;
 var context = new FootballLeagueDbContext();
 
 //GetAllTeams();
+//await GetAllTeamsQuerySyntax();
 //GetOneTeam();
 //Select all methods that meat a condition
-GetFiltredTeams();
+//GetFiltredTeams();
+//AggregateMethods();
+
+
+async Task AggregateMethods()
+{
+    var numberOfTeams = context.Teams.CountAsync();
+    var numberOfTeamsWithCondition = context.Teams.CountAsync(q => q.TeamId == 1);
+    Console.WriteLine(numberOfTeamsWithCondition.Result);
+
+    
+    var maxId = await context.Teams.MaxAsync(q => q.TeamId);
+    Console.WriteLine(maxId);
+    var minId = await context.Teams.MinAsync(q => q.TeamId);
+    Console.WriteLine(minId);
+    var avgTeams = await context.Teams.AverageAsync(q => q.TeamId);
+    Console.WriteLine(avgTeams);
+    var sumTeams = await context.Teams.SumAsync(q => q.TeamId);
+    Console.WriteLine(sumTeams);
+}
+async Task GetAllTeamsQuerySyntax()
+{
+    Console.WriteLine("Write ur team");
+    var searchTerm = Console.ReadLine();
+    
+    var teams = await (from team in context.Teams where
+        EF.Functions.Like(team.Name, $"%{searchTerm}%")
+        select team).ToListAsync();
+    
+    foreach (var team in teams)
+    {
+        Console.WriteLine(team.Name);
+    }
+}
 async Task GetFiltredTeams()
 {
     Console.WriteLine("Write ur team");
@@ -34,7 +68,6 @@ async void GetAllTeams()
         Console.WriteLine(t.Name);
     }
 }
-
 async void GetOneTeam()
 {
     //Selecting a single record - first team

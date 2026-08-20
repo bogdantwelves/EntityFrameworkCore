@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EntityFrameworkCore.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaf69f02a1b2963b0061ba6bcec95f2e5a4c8380")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+933214e5e9332d0e003d07e504bacddd19c67573")]
 [assembly: System.Reflection.AssemblyProductAttribute("EntityFrameworkCore.Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EntityFrameworkCore.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
